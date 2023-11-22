@@ -1,0 +1,23 @@
+#root {
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem;
+}
+.nav button {
+  padding: 1rem 2rem;
+  background-color: aquamarine;
+  border: none;
+}
+.items_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2rem;
+}
